@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
-import logo from "../../assets/img/LOGOAMERICANPRINCIPAL.png";
+import logo from "../../assets/img/American-Agro-sinfondo.png";
 import { FaBars } from "react-icons/fa";
 import SideBarResponsiva from "./SideBarResponsiva";
 import EditarUsuario from "../usuario/EditarUsuario";

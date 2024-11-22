@@ -19,7 +19,7 @@ function Spinner({ loading }) {
     >
       <div style={{ textAlign: "center" }}>
         <BeatLoader
-          color="#ffc107"
+          color="rgb(57, 212, 83)"
           size={40}
           aria-label="Loading Spinner"
           data-testid="loader"
