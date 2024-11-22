@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useForm } from "../../hooks/useForm";
 import Registro from "./Registro";
-import RecoverPass from "./RecoverPass";
 import { useNavigate, useLocation } from "react-router-dom";
-import logo from "../../assets/img/welcomefondoblanco.png";
+import logo from "../../assets/img/AGRO-LOGO.png";
 
 export default function Login({ handleCerrarModalLogin }) {
   const { form, changed } = useForm({});
@@ -23,14 +22,6 @@ export default function Login({ handleCerrarModalLogin }) {
 
   const handleCerrarModalRegistro = () => {
     setRegistro(false);
-  };
-
-  const handleMostrarModalRecover = () => {
-    setRecover(true);
-  };
-
-  const handleCerrarModalRecover = () => {
-    setRecover(false);
   };
 
   const loginUser = async (e) => {
@@ -84,33 +75,10 @@ export default function Login({ handleCerrarModalLogin }) {
     }
   };
 
-  // useEffect(() => {
-  //   if (showWelcomeMessage) {
-  //     const timer = setTimeout(() => {
-  //       setShowWelcomeMessage(false);
-  //       // handleCerrarModalLogin();
-
-  //       if (location.pathname === "/") {
-  //         window.location.reload();
-  //       } else {
-  //         navigate("/");
-  //         window.location.reload();
-  //       }
-  //     }, 2000);
-  //     return () => clearTimeout(timer);
-  //   }
-  // }, [showWelcomeMessage, location]);
-
   return (
     <div>
       {!registro && (
         <div className="login-container">
-          {/* <div className="button-close-login">
-            <button onClick={handleCerrarModalLogin} style={{ color: "black" }}>
-              X
-            </button>
-          </div> */}
-
           <form className="login-form" onSubmit={loginUser}>
             <div className="form-group">
               <label htmlFor="email">
@@ -139,41 +107,19 @@ export default function Login({ handleCerrarModalLogin }) {
 
             <input type="submit" value="Ingresar" className="form-submit" />
           </form>
-          {/* <button onClick={handleMostrarModalRecover}>
-            <span style={{ color: "black" }}>¿Olvidaste tu contraeña?</span>
-          </button>
-          {recover && (
-            <div className="modal">
-              <div className="modal-content">
-                <RecoverPass
-                  handleCerrarModalRecover={handleCerrarModalRecover}
-                />
-              </div>
-            </div>
-          )} */}
 
           {showWelcomeMessage && (
             <div className="welcome-message">
               <img src={logo} alt="" />
-              <h2>Bienvenido a American Vial!</h2>
+              <h2>Bienvenido a American Agro!</h2>
             </div>
           )}
 
-          <div style={{ marginTop: "1rem" }}>
-            {/* <span
-              style={{
-                color: "black",
-                fontFamily: "merri",
-                fontSize: "1rem",
-              }}
-            >
-              ¿Aún no pertenecés a American Vial?
-            </span> */}
-          </div>
+          <div style={{ marginTop: "1rem" }}></div>
 
           <button
             className="submit-button"
-            style={{ color: "black" }}
+            style={{ color: "white" }}
             onClick={handleMostrarModalRegistro}
           >
             Registráte

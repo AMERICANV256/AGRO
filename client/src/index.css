@@ -810,10 +810,11 @@ button:focus-visible {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  color: #fff;
 }
 
 .submit-button {
-  background-color: #ffcc00;
+  background-color: rgb(57, 212, 83);
   color: #fff;
   margin-top: 1rem;
 }
@@ -1438,7 +1439,7 @@ button:focus-visible {
 }
 
 .white-bar {
-  background-color: black;
+  /* background-color: black; */
   padding: 10px 20px;
   text-align: center;
   display: flex;
@@ -1517,6 +1518,7 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   margin: auto;
+  
 }
 
 .white-bar.fixed .fauser {
@@ -1541,6 +1543,11 @@ button:focus-visible {
   }
 }
 
+.white-bar img {
+  max-width: 800px;
+  margin-top: 2rem;
+}
+
 @media screen and (max-width: 850px) {
   .white-bar img {
     max-width: 500px;
@@ -1556,14 +1563,13 @@ button:focus-visible {
     display: flex;
     justify-content: center;
     margin: auto;
+    width: 500px;
   }
 }
 
 @media screen and (max-width: 750px) {
   .americanimg img {
-    /* position: absolute;
-    top: 48px;
-    left: 0; */
+   
     width: 500px;
     height: auto;
   }
@@ -1849,12 +1855,12 @@ button:focus-visible {
   padding: 40px;
   border-radius: 16px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  border: 2px solid #ccc;
+  border: 2px solid rgb(113, 224, 113);
   max-width: 500px;
-  width: 90%;
+  width: 80%;
   margin: auto;
   position: fixed;
-  top: 60%;
+  top: 63%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2000;
@@ -1879,6 +1885,7 @@ button:focus-visible {
 .login-form {
   display: flex;
   flex-direction: column;
+  color: #fff;
 }
 
 .login-form .form-group {
@@ -1898,6 +1905,7 @@ button:focus-visible {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  color: black;
 }
 
 .login-form input[type="submit"] {
@@ -1905,7 +1913,7 @@ button:focus-visible {
   padding: 12px;
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #ffcc00;
+  
 
   border-radius: 4px;
   cursor: pointer;
@@ -1913,15 +1921,15 @@ button:focus-visible {
 }
 
 .login-form input[type="submit"]:hover {
-  background-color: #ffd966;
+  /* background-color: #ffd966; */
 }
 
 .login-form input[type="submit"]:active {
-  background-color: #ffd966;
+  background-color: rgb(104, 225, 104);
 }
 
 .button-close-login button {
-  color: #000;
+  color: white;
   font-size: 16px;
 }
 
@@ -1938,7 +1946,7 @@ button:focus-visible {
   height: auto;
   text-align: center;
   padding: 20px;
-  background-color: #ffcc00;
+  background-color: rgb(99, 223, 99);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin: 20px;
@@ -2040,7 +2048,7 @@ button:focus-visible {
   width: 100%;
   padding: 10px 20px;
   color: #000000;
-  background-color: #ffcc00;
+  background-color: rgb(111, 244, 111);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -2049,7 +2057,7 @@ button:focus-visible {
 }
 
 .button-registro:hover {
-  background-color: #ffd966;
+  background-color: rgb(86, 216, 86);;
 }
 
 .registro-container span {
@@ -2958,7 +2966,7 @@ button:focus-visible {
 
 .form-submit-custom {
   background-color: #000;
-  color: #ffcc00;
+  color: green;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -2971,7 +2979,7 @@ button:focus-visible {
 }
 
 .form-submit-custom:hover {
-  background-color: #e6bb0d;
+  background-color: rgb(105, 222, 105);
   color: #000;
   transform: scale(1.05);
 }
@@ -3338,8 +3346,8 @@ button:focus-visible {
 
 /* Estilos para el botón de guardar cotización */
 .form-submit {
-  background-color: #ffcc00;
-  color: #000;
+  background-color: green;
+  color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -3356,7 +3364,7 @@ button:focus-visible {
 }
 
 .form-submit:hover {
-  background-color: #ffd966;
+  background-color: green;
 }
 
 .form-client-info {
@@ -4520,6 +4528,7 @@ button:focus-visible {
   padding: 10px;
   border: 1px solid #ced4da;
   border-radius: 4px;
+  
 }
 
 .datosAmericanContacto {
@@ -5996,3 +6005,4 @@ p {
     font-size: 0.8rem;
   }
 }
+

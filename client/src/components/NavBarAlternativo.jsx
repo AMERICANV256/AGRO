@@ -1,22 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../assets/img/LOGOAMERICANPRINCIPAL.png";
-import { FiSearch } from "react-icons/fi";
-import { FaUser, FaChevronUp } from "react-icons/fa";
+import logo from "../assets/img/american-agro.jpg";
 import useAuth from "../hooks/useAuth";
-import { Link } from "react-router-dom";
 import Login from "./usuario/Login";
 import EditarUsuario from "./usuario/EditarUsuario";
 import { useNavigate } from "react-router-dom";
 import { useProducto } from "../hooks/useProductos";
 import { useUsuario } from "../hooks/useUsuarios";
 import LogOutMessage from "../pages/LogOutMessage";
-import HeaderNavBar from "./HeaderNavBar";
 import Contact from "./Contact";
 import Garantia from "./Garantia";
 import AboutUs from "./AboutUs";
-import { FaBars } from "react-icons/fa";
+
 import AmericanVial from "../assets/img/LOGOAMERICANPRINCIPAL.png";
-import gruaGif from "../assets/img/GRUAGIF1.gif";
 
 export default function NavBarAlternativo({
   onSearchByMarca,

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useForm } from "../../hooks/useForm";
-import logo from "../../assets/img/welcomefondoblanco.png";
+import logo from "../../assets/img/AGRO-LOGO.png";
 
 export default function Registro({ handleCerrarModalRegistro }) {
   const { form, changed } = useForm({});
@@ -148,7 +148,7 @@ export default function Registro({ handleCerrarModalRegistro }) {
       {showWelcomeMessage && (
         <div className="welcome-message">
           <img src={logo} alt="Logo" />
-          <p>Ya estás registrado en AMERICAN VIAL!</p>
+          <p>Ya estás registrado en AMERICAN AGRO!</p>
         </div>
       )}
     </div>
