@@ -690,7 +690,7 @@ button:focus-visible {
 }
 
 .contact-container::after {
-  border: 4px solid #ffcc00;
+  border: 4px solid rgb(146, 244, 146);
   top: 8px;
   left: 8px;
   right: 8px;
@@ -2386,15 +2386,19 @@ margin-bottom: 0.5rem;
   position: absolute;
   right: 120px;
   align-items: center;
-color: rgb(108, 208, 108);
+  color: rgb(108, 208, 108);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   margin-right: 0.5rem;
   border-radius: 8px;
   padding: 10px 15px;
-
   top: 0;
   cursor: pointer;
 }
+
+.user__info:hover {
+  color: rgb(146, 244, 146);
+}
+
 
 .user__info .burguer .burguer-icon {
   position: absolute;
@@ -6020,4 +6024,7 @@ p {
 .image-preview {
   color: rgb(108, 208, 108);
 }
+
+
+
 

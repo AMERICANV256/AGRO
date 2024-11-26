@@ -144,7 +144,7 @@ export default function Historial() {
   return (
     <div className="postVentaContainer1">
       <BackButton />
-      {role === "administrador" && <HistorialRanking />}
+      {role === "administrador" && "gerente" && <HistorialRanking />}
       <h2 className="tituloCompo1">Historial</h2>
       <br />
       <hr />

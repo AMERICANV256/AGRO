@@ -117,6 +117,7 @@ export default function NavBarAdmin() {
         )}
       </div>
       <button
+        className="hover-cerrar.sesion"
         style={{
           background: "none",
           backgroundColor: "none",
