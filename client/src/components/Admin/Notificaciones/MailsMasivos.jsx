@@ -285,9 +285,12 @@ export default function MailsMasivos() {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="imagen">Imagen 1</label>
+          <label htmlFor="imagen" className="imagen">
+            Imagen 1
+          </label>
           <input
             type="file"
+            className="imagen"
             id="imagen"
             accept="image/png, image/jpeg"
             onChange={(e) => {
@@ -310,10 +313,13 @@ export default function MailsMasivos() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="imagen1">Imagen 2</label>
+          <label htmlFor="imagen1" className="imagen">
+            Imagen 2
+          </label>
           <input
             type="file"
             id="imagen1"
+            className="imagen"
             accept="image/png, image/jpeg"
             onChange={(e) => {
               uploadImage(e, 1);
@@ -335,10 +341,13 @@ export default function MailsMasivos() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="fichaPDF">PDF</label>
+          <label htmlFor="fichaPDF" className="imagen">
+            PDF
+          </label>
           <input
             type="file"
             id="fichaPDF"
+            className="imagen"
             accept="application/pdf"
             onChange={(e) => {
               uploadPDF(e);

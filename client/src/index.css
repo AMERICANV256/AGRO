@@ -60,9 +60,9 @@ h1 {
 .tituloCompo {
   font-family: "merri";
   display: flex;
-  color: #febb00;
+  color: rgb(108, 208, 108);
   text-decoration: underline;
-  text-decoration-color: #febb00;
+  text-decoration-color: rgb(108, 208, 108);
   display: flex;
   justify-content: flex-start;
 }
@@ -70,9 +70,9 @@ h1 {
 .tituloCompo1 {
   font-family: "merri";
   display: flex;
-  color: #febb00;
+  color: rgb(108, 208, 108);
   text-decoration: underline;
-  text-decoration-color: #febb00;
+  text-decoration-color: rgb(108, 208, 108);
   display: flex;
   justify-content: center;
 }
@@ -962,7 +962,7 @@ button:focus-visible {
 }
 
 .shoppingButton:hover {
-  color: #e6b800; /* Color amarillo en hover */
+  color: rgb(146, 244, 146); /* Color amarillo en hover */
 }
 
 /* MENSAJE EL PRODUCTO HA SIDO AÑADIDO AL CARRITO */
@@ -1272,7 +1272,7 @@ button:focus-visible {
 }
 
 .footaltbespace button:hover {
-  color: #febb00;
+  color: rgb(146, 244, 146);
 }
 
 @media screen and (max-width: 550px) {
@@ -1921,7 +1921,7 @@ button:focus-visible {
 }
 
 .login-form input[type="submit"]:hover {
-  /* background-color: #ffd966; */
+  background-color: rgb(146, 244, 146);
 }
 
 .login-form input[type="submit"]:active {
@@ -2057,7 +2057,7 @@ button:focus-visible {
 }
 
 .button-registro:hover {
-  background-color: rgb(86, 216, 86);;
+  background-color: rgb(146, 244, 146);
 }
 
 .registro-container span {
@@ -2409,11 +2409,11 @@ color: rgb(108, 208, 108);
 }
 
 .sidebarAdmin__button:hover {
-  background-color: #0052cc;
+  background-color: rgb(146, 244, 146);
 }
 
 .sidebarAdmin__button.active {
-  background-color: orange;
+  background-color: rgb(108, 208, 108);;
 }
 
 .icon {
@@ -2515,7 +2515,7 @@ color: rgb(108, 208, 108);
 }
 
 .addEventForm button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: rgb(146, 244, 146);
 }
 
 .imgUsuario {
@@ -2724,8 +2724,9 @@ color: rgb(108, 208, 108);
   border: 4px solid #6c6b66;
   border-left: 4px solid #000000;
   border-right: 4px solid #000000;
-  box-shadow: 0 4px 8px rgb(108, 208, 108);
-  background-color: rgb(108, 208, 108);
+  box-shadow: 0 4px 8px rgb(200, 255, 200);
+  background-color: rgb(200, 255, 200);
+
   padding: 20px;
   margin-top: 1rem;
   margin-left: 1rem;
@@ -2979,7 +2980,7 @@ color: rgb(108, 208, 108);
 }
 
 .form-submit-custom:hover {
-  background-color: rgb(105, 222, 105);
+  background-color: rgb(146, 244, 146);
   color: #000;
   transform: scale(1.05);
 }
@@ -3364,7 +3365,7 @@ color: rgb(108, 208, 108);
 }
 
 .form-submit:hover {
-  background-color: green;
+  background-color: rgb(146, 244, 146);
 }
 
 .form-client-info {
@@ -3562,8 +3563,8 @@ color: rgb(108, 208, 108);
 }
 
 .modificar-btn:hover {
-  background-color: #e0a800;
-  border-color: #d39e00;
+  background-color: rgb(146, 244, 146);
+  border-color: rgb(146, 244, 146);
 }
 
 .concretar-btn {
@@ -3573,12 +3574,13 @@ color: rgb(108, 208, 108);
 }
 
 .concretar-btn:hover {
-  background-color: #218838;
-  border-color: #1e7e34;
+  background-color: rgb(146, 244, 146);
+  border-color: rgb(146, 244, 146);
 }
 
 .acciones-dropdown {
   font-size: 14px;
+  
 }
 
 .acciones-dropdown .dropdown-item {
@@ -3598,13 +3600,13 @@ color: rgb(108, 208, 108);
 }
 
 .acciones-dropdown .dropdown-item-modificar {
-  color: #ffc107;
+  color: rgb(108, 208, 108);
   background-color: transparent;
   border: none;
 }
 
 .acciones-dropdown .dropdown-item-modificar:hover {
-  background-color: #ffc107;
+  background-color: rgb(146, 244, 146);
   color: #212529;
 }
 
@@ -3632,15 +3634,15 @@ color: rgb(108, 208, 108);
 }
 
 .acciones-dropdown-custom {
-  background-color: #ffc107;
+  background-color: rgb(146, 244, 146);
   color: black;
-  border-color: #ffc107;
+  border-color: rgb(146, 244, 146);
 }
 
 .acciones-dropdown-custom .dropdown-toggle {
-  background-color: #ffc107;
+  background-color: rgb(146, 244, 146);
   color: black;
-  border-color: #ffc107;
+  border-color: rgb(146, 244, 146);
 }
 
 .acciones-dropdown-custom .dropdown-menu {
@@ -3684,7 +3686,7 @@ color: rgb(108, 208, 108);
   top: 10px;
   right: 10px;
   background-color: #ffffff;
-  border: 2px solid #ffcc00;
+  border: 2px solid rgb(108, 208, 108);
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -4034,12 +4036,12 @@ color: rgb(108, 208, 108);
 .noData {
   text-align: center;
   width: 100%;
-  color: #ffcc00;
+  color: rgb(108, 208, 108);
   background-color: #000;
   padding: 20px;
   font-size: 18px;
   border-radius: 5px;
-  border: 1px solid #ffcc00;
+  border: 1px solid rgb(108, 208, 108);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -4075,7 +4077,7 @@ color: rgb(108, 208, 108);
 }
 
 .headerNavBar button:hover {
-  background-color: #ffc107;
+  background-color: rgb(146, 244, 146);
 }
 
 .headerNavBar {
@@ -4143,7 +4145,7 @@ color: rgb(108, 208, 108);
 }
 
 .dropdownEmpresa button:hover {
-  background-color: #ffc107;
+  background-color: rgb(146, 244, 146);
 }
 
 .filtrosContainer {
@@ -4913,7 +4915,7 @@ color: rgb(108, 208, 108);
 }
 
 .back-button {
-  background-color: #ffc107;
+  background-color: rgb(108, 208, 108);
   color: white;
   border: none;
   border-radius: 5px;
@@ -4928,7 +4930,7 @@ color: rgb(108, 208, 108);
 }
 
 .back-button:hover {
-  background-color: #e6b106;
+  background-color: rgb(146, 244, 146);
 }
 
 @media screen and (max-width: 600px) {
@@ -5438,11 +5440,12 @@ color: rgb(108, 208, 108);
 }
 
 .datatable-container .rdt_TableRow:nth-child(even) {
-  background-color: #ffcccc; /* Rojo claro */
+  background-color: white /* Rojo claro */
 }
 
 .datatable-container .rdt_TableRow:nth-child(odd) {
-  background-color: #ffffcc; /* Amarillo claro */
+  background-color: rgb(200, 255, 200);
+ /* Amarillo claro */
 }
 
 .buttonEliminar {
@@ -5965,7 +5968,7 @@ p {
 }
 
 .select-buttons button {
-  background-color: #ffcc00;
+  background-color: rgb(108, 208, 108);;
   color: black;
   border: none;
   border-radius: 5px;
@@ -6004,5 +6007,17 @@ p {
     padding: 8px 16px;
     font-size: 0.8rem;
   }
+}
+
+.form-label {
+  color: rgb(108, 208, 108);
+}
+
+.imagen {
+  color: rgb(108, 208, 108);
+}
+
+.image-preview {
+  color: rgb(108, 208, 108);
 }
 
