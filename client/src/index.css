@@ -818,6 +818,10 @@ button:focus-visible {
   color: #fff;
   margin-top: 1rem;
 }
+.submit-button:hover {
+  background-color: rgb(45, 170, 66); /* Verde más oscuro al pasar el cursor */
+  color: rgb(200, 255, 200); /* Texto con un ligero tono verde claro */
+}
 
 .MAPS {
   max-width: 50%;
@@ -5987,7 +5991,7 @@ p {
 }
 
 .select-buttons button:hover {
-  background-color: #e6b800;
+  background-color: rgb(146, 244, 146);
   transform: translateY(-2px);
 }
 
