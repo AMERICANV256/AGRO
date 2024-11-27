@@ -4,7 +4,7 @@ export default function PreviewCotizacionEmail({ cotizacionDetalle }) {
   const PDFUrl =
     "https://res.cloudinary.com/dmfzplfra/image/upload/v1727730981/PDF_b1hsox.png";
   const americanVialImage =
-    "https://res.cloudinary.com/dr5okg3aq/image/upload/v1729654420/tqxzxakuyhjdpvdzjkrd.png";
+    "https://res.cloudinary.com/dr5okg3aq/image/upload/v1732747550/fkpfe9cz0aiphr9cmcxz.png";
 
   const notasEmail = cotizacionDetalle.notasEmail || "";
 
@@ -218,13 +218,14 @@ export default function PreviewCotizacionEmail({ cotizacionDetalle }) {
       <div
         style={{
           marginTop: "30px",
-          textAlign: "left",
+          textAlign: "center",
         }}
       >
         <div
           style={{
             display: "inline-block",
-            textAlign: "left",
+            justifyContent: "center",
+            textAlign: "center",
           }}
         >
           <img
@@ -239,22 +240,23 @@ export default function PreviewCotizacionEmail({ cotizacionDetalle }) {
               height: "auto",
               border: "none",
               display: "inline-block",
-              marginLeft: "50px",
+              // marginLeft: "50px",
             }}
           />
 
           <a
-            href="http://www.americanvial.com"
+            href="http://www.americanagro.com.ar"
             style={{
               display: "block",
               marginBottom: "20px",
               fontWeight: "bold",
               color: "blue",
-              textAlign: "left",
-              marginLeft: "65px",
+              textAlign: "center",
+              // marginLeft: "65px",
+              marginTop: "15px",
             }}
           >
-            www.americanvial.com
+            www.americanagro.com.ar
           </a>
         </div>
       </div>

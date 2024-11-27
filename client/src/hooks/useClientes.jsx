@@ -57,7 +57,7 @@ export const useClientes = (idUsuario, id) => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(108, 208, 108)",
         customClass: {
           title: "text-dark",
         },
@@ -72,7 +72,7 @@ export const useClientes = (idUsuario, id) => {
               icon: "warning",
               title: "El cliente ingresado ya se encuentra en la base de datos",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(108, 208, 108)",
               customClass: {
                 title: "text-dark",
               },
@@ -88,7 +88,7 @@ export const useClientes = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -105,7 +105,7 @@ export const useClientes = (idUsuario, id) => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(108, 208, 108)",
           customClass: {
             title: "text-dark",
           },
@@ -125,7 +125,7 @@ export const useClientes = (idUsuario, id) => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -140,7 +140,7 @@ export const useClientes = (idUsuario, id) => {
               icon: "warning",
               title: "No se pudieron actualizar los datos. Intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -156,7 +156,7 @@ export const useClientes = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -171,7 +171,7 @@ export const useClientes = (idUsuario, id) => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(146, 244, 146)",
           customClass: {
             title: "text-dark",
           },

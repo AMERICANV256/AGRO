@@ -5692,7 +5692,7 @@ margin-bottom: 0.5rem;
 }
 
 .btn-concretar-venta {
-  background-color: #ffcc00;
+  background-color: rgb(108, 208, 108);
   color: black;
   padding: 10px 20px;
   border: none;
@@ -5897,6 +5897,7 @@ p {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+  
 }
 
 .custom-confirm-button {

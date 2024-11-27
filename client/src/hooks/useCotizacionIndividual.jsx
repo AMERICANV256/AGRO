@@ -35,7 +35,7 @@ export const useCotizacionIndividual = () => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -51,7 +51,7 @@ export const useCotizacionIndividual = () => {
               icon: "info",
               title: "No se pudo concretar la venta. Intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -68,7 +68,7 @@ export const useCotizacionIndividual = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -92,7 +92,7 @@ export const useCotizacionIndividual = () => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -108,7 +108,7 @@ export const useCotizacionIndividual = () => {
               icon: "info",
               title: "No se pudo Aprobar la venta. Intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -125,7 +125,7 @@ export const useCotizacionIndividual = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },

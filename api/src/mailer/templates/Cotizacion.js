@@ -2,7 +2,7 @@ const cotizacionEmail = (cotizacion) => {
   const PDFUrl =
     "https://res.cloudinary.com/dmfzplfra/image/upload/v1727730981/PDF_b1hsox.png"; // URL pública de la imagen para el PDF
   const americanVialImage =
-    "https://res.cloudinary.com/dr5okg3aq/image/upload/v1729654420/tqxzxakuyhjdpvdzjkrd.png"; // URL de la imagen de American Vial
+    "https://res.cloudinary.com/dr5okg3aq/image/upload/v1732747550/fkpfe9cz0aiphr9cmcxz.png"; // URL de la imagen de American Vial
 
   const notasEmail = cotizacion.notasEmail || "";
 
@@ -128,8 +128,8 @@ const cotizacionEmail = (cotizacion) => {
       <div style="margin-top: 30px; ">
         <img src="${firmaUsuario}" alt="Firma o American Vial" style="width: 300px; height: auto; display: block; margin-left: 50px;" />
        
-        <a href="http://www.americanvial.com" style="display: block; margin-bottom: 20px; font-weight: bold;margin-left: 70px;">
-          www.americanvial.com
+        <a href="http://www.americanagro.com.ar" style="display: block; margin-bottom: 20px; font-weight: bold;margin-left: 90px;margin-top: 20px;">
+          www.americanagro.com.ar
         </a>
       </div>
     </div>

@@ -26,7 +26,7 @@ export const useHistorial = () => {
               title:
                 "No se encontraron cotizaciones para los valores ingresados",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -42,7 +42,7 @@ export const useHistorial = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -59,7 +59,7 @@ export const useHistorial = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -74,7 +74,7 @@ export const useHistorial = () => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(146, 244, 146)",
           customClass: {
             title: "text-dark",
           },
@@ -96,7 +96,7 @@ export const useHistorial = () => {
               title:
                 "No se encontraron cotizaciones para los valores ingresados",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -112,7 +112,7 @@ export const useHistorial = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -129,7 +129,7 @@ export const useHistorial = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -144,7 +144,7 @@ export const useHistorial = () => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(146, 244, 146)",
           customClass: {
             title: "text-dark",
           },

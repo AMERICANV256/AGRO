@@ -329,7 +329,10 @@ export default function CotizacionEdit() {
       <form onSubmit={handleSubmit}>
         <div>
           <h2 className="tituloCompo">Modificar Cotización</h2>{" "}
-          <h2> {formData.codigoCotizacion}</h2>
+          <h2 style={{ color: "rgb(108, 208, 108)" }}>
+            {" "}
+            {formData.codigoCotizacion}
+          </h2>
           <br />
         </div>
         <div></div>

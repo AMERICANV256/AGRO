@@ -112,7 +112,7 @@ export const useCotizaciones = (idUsuario, id) => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -127,7 +127,7 @@ export const useCotizaciones = (idUsuario, id) => {
               icon: "info",
               title: "No se pudo guardar la cotización; intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -144,7 +144,7 @@ export const useCotizaciones = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -168,7 +168,7 @@ export const useCotizaciones = (idUsuario, id) => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -183,7 +183,7 @@ export const useCotizaciones = (idUsuario, id) => {
               icon: "warning",
               title: "No se pudieron actualizar los datos. Intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -199,7 +199,7 @@ export const useCotizaciones = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -216,7 +216,7 @@ export const useCotizaciones = (idUsuario, id) => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(146, 244, 146)",
           customClass: {
             title: "text-dark",
           },
@@ -236,7 +236,7 @@ export const useCotizaciones = (idUsuario, id) => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -251,7 +251,7 @@ export const useCotizaciones = (idUsuario, id) => {
               icon: "warning",
               title: "No se pudo generar el PDF. Intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -267,7 +267,7 @@ export const useCotizaciones = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -284,7 +284,7 @@ export const useCotizaciones = (idUsuario, id) => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(146, 244, 146)",
           customClass: {
             title: "text-dark",
           },
@@ -304,7 +304,7 @@ export const useCotizaciones = (idUsuario, id) => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -319,7 +319,7 @@ export const useCotizaciones = (idUsuario, id) => {
               icon: "info",
               title: "No se pudo enviar la cotización; intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -335,7 +335,7 @@ export const useCotizaciones = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -352,7 +352,7 @@ export const useCotizaciones = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -392,7 +392,7 @@ export const useCotizaciones = (idUsuario, id) => {
               title:
                 "No se encontraron Cotizaciones con los valores ingresados",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -408,7 +408,7 @@ export const useCotizaciones = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -425,7 +425,7 @@ export const useCotizaciones = (idUsuario, id) => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(146, 244, 146)",
           customClass: {
             title: "text-dark",
           },
@@ -457,7 +457,7 @@ export const useCotizaciones = (idUsuario, id) => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -474,7 +474,7 @@ export const useCotizaciones = (idUsuario, id) => {
               icon: "info",
               title: "No se pudo guardar la venta. Intente más tarde",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -491,7 +491,7 @@ export const useCotizaciones = (idUsuario, id) => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },

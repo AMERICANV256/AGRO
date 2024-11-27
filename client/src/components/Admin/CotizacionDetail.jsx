@@ -939,7 +939,7 @@ export default function CotizacionDetail() {
                 className="form-submit"
                 disabled={!isPdfGenerated}
                 style={{
-                  backgroundColor: !isPdfGenerated ? "#ccc" : "#ffcc00",
+                  backgroundColor: !isPdfGenerated ? "#ccc" : "lightgreen",
                   color: !isPdfGenerated ? "#666" : "#000",
                   cursor: !isPdfGenerated ? "not-allowed" : "pointer",
                   opacity: !isPdfGenerated ? 0.6 : 1,
@@ -972,7 +972,9 @@ export default function CotizacionDetail() {
             onClick={() => setIsModalOpen(true)}
             style={{
               backgroundColor:
-                !isPdfGenerated || !cotizacionConEstado1 ? "#ccc" : "#ffcc00",
+                !isPdfGenerated || !cotizacionConEstado1
+                  ? "#ccc"
+                  : "lightgreen",
               color: !isPdfGenerated || !cotizacionConEstado1 ? "#666" : "#000",
               cursor:
                 !isPdfGenerated || !cotizacionConEstado1
@@ -1023,7 +1025,7 @@ export default function CotizacionDetail() {
               >
                 <h2
                   style={{
-                    color: "#ffc107",
+                    color: "rgb(108, 208, 108)",
                     display: "flex",
                     justifyContent: "center",
                     fontSize: "24px",
@@ -1060,7 +1062,7 @@ export default function CotizacionDetail() {
                     <button
                       type="submit"
                       style={{
-                        backgroundColor: "#ffcc00",
+                        backgroundColor: "rgb(108, 208, 108)",
                         color: "#000",
                         padding: "10px 20px",
                         fontSize: "16px",
@@ -1070,10 +1072,10 @@ export default function CotizacionDetail() {
                         transition: "background-color 0.3s",
                       }}
                       onMouseOver={(e) =>
-                        (e.target.style.backgroundColor = "#e6b800")
+                        (e.target.style.backgroundColor = "rgb(146, 244, 146)")
                       }
                       onMouseOut={(e) =>
-                        (e.target.style.backgroundColor = "#ffcc00")
+                        (e.target.style.backgroundColor = "rgb(108, 208, 108)")
                       }
                       disabled={loadingEnvio}
                     >
@@ -1083,7 +1085,7 @@ export default function CotizacionDetail() {
                       type="button"
                       onClick={() => setIsModalOpen(false)}
                       style={{
-                        backgroundColor: "#ffcc00",
+                        backgroundColor: "rgb(108, 208, 108)",
                         color: "#000",
                         padding: "10px 20px",
                         fontSize: "16px",
@@ -1093,10 +1095,10 @@ export default function CotizacionDetail() {
                         transition: "background-color 0.3s",
                       }}
                       onMouseOver={(e) =>
-                        (e.target.style.backgroundColor = "#e6b800")
+                        (e.target.style.backgroundColor = "rgb(146, 244, 146)")
                       }
                       onMouseOut={(e) =>
-                        (e.target.style.backgroundColor = "#ffcc00")
+                        (e.target.style.backgroundColor = "rgb(108, 208, 108)")
                       }
                     >
                       Cancelar

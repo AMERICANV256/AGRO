@@ -19,7 +19,7 @@ export const useMails = () => {
         showConfirmButton: false,
         timer: 2000,
         background: "#ffffff",
-        iconColor: "#ffc107",
+        iconColor: "rgb(146, 244, 146)",
         customClass: {
           title: "text-dark",
         },
@@ -36,7 +36,7 @@ export const useMails = () => {
               title:
                 "No pudieron enviarse los Emails por favor, intente nuevamente",
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -52,7 +52,7 @@ export const useMails = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -69,7 +69,7 @@ export const useMails = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -84,7 +84,7 @@ export const useMails = () => {
               showConfirmButton: false,
               timer: 2000,
               background: "#ffffff",
-              iconColor: "#ffc107",
+              iconColor: "rgb(146, 244, 146)",
               customClass: {
                 title: "text-dark",
               },
@@ -100,7 +100,7 @@ export const useMails = () => {
           showConfirmButton: false,
           timer: 2000,
           background: "#ffffff",
-          iconColor: "#ffc107",
+          iconColor: "rgb(146, 244, 146)",
           customClass: {
             title: "text-dark",
           },
