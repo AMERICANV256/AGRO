@@ -112,7 +112,7 @@ export default function NavBarAdmin() {
               background: "none",
             }}
           >
-            <FaBars className="burguer-icon" style={{ color: "white" }} />
+            <FaBars className="burguer-icon" style={{ color: "black" }} />
           </button>
         )}
       </div>
