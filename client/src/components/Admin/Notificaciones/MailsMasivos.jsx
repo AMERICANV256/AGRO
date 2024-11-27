@@ -44,7 +44,7 @@ const Modal = ({ isOpen, onClose, onSubmit }) => {
           <div className="modal-buttons">
             <button
               style={{
-                backgroundColor: "#ffcc00",
+                backgroundColor: "rgb(146, 244, 146)",
                 color: "#000",
                 padding: "10px 20px",
                 fontSize: "16px",
@@ -59,7 +59,7 @@ const Modal = ({ isOpen, onClose, onSubmit }) => {
             </button>
             <button
               style={{
-                backgroundColor: "#ffcc00",
+                backgroundColor: "rgb(146, 244, 146)",
                 color: "#000",
                 padding: "10px 20px",
                 fontSize: "16px",

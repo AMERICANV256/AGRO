@@ -1343,6 +1343,7 @@ button:focus-visible {
   padding: 5px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  
 }
 
 .CardAmpliada {
@@ -3472,7 +3473,7 @@ margin-bottom: 0.5rem;
 
 .detail-item strong {
   min-width: 150px;
-  color: #ffc107;
+  color: rgb(108, 208, 108);
   text-align: right;
   margin-right: 30px;
 }
@@ -3483,7 +3484,7 @@ margin-bottom: 0.5rem;
 }
 
 .detail-item.usuario strong {
-  color: #ffc107;
+  color: rgb(108, 208, 108);
 }
 
 .detail-item.usuario span {
@@ -5845,6 +5846,10 @@ p {
   width: 500px;
 }
 
+.modal-content h2 {
+  color: rgb(108, 208, 108);
+}
+
 .modal-overlay1 {
   position: fixed;
   top: 0;
@@ -5963,6 +5968,7 @@ p {
   align-items: center;
   justify-content: flex-start;
   width: 100%;
+  color: rgb(108, 208, 108);
 }
 
 .email-item input {
