@@ -133,13 +133,13 @@ const cotizacionEmail = (cotizacion) => {
         </div>
       </div>
         <hr style="margin-top: 30px; margin-bottom: 10px;" />
-      <div style="margin-top: 30px; ">
-        <img src="${firmaUsuario}" alt="Firma o American Vial" style="width: 300px; height: auto; display: block; margin-left: 50px;" />
-       
-        <a href="http://www.americanagro.com.ar" style="display: block; margin-bottom: 20px; font-weight: bold;margin-left: 90px;margin-top: 20px;">
-          www.americanagro.com.ar
-        </a>
-      </div>
+    <div style="margin-top: 30px; text-align: center;">
+  <img src="${firmaUsuario}" alt="Firma o American Vial" style="width: 300px; height: auto; display: block; margin: 0 auto;" />
+  <a href="http://www.americanagro.com.ar" style="display: inline-block; margin-top: 20px; font-weight: bold;">
+    www.americanagro.com.ar
+  </a>
+</div>
+
     </div>
   `;
 };
