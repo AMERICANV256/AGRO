@@ -5707,7 +5707,7 @@ margin-bottom: 0.5rem;
 }
 
 .btn-concretar-venta:hover {
-  background-color: #e6b800;
+  background-color: rgb(146, 244, 146);
 }
 
 .ventasPendientes {

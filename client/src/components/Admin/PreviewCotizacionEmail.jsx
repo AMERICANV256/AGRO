@@ -10,30 +10,34 @@ export default function PreviewCotizacionEmail({ cotizacionDetalle }) {
 
   // Filtrar cotizacionesIndividuales para incluir solo aquellas con más de 1 cuota
   const cotizacionesIndividuales = cotizacionDetalle.cotizacionesIndividuales
-    .filter((item) => item.cuotas > 1)
     .map((item, index) => {
-      const cuotasOption =
-        item.cuotas > 1
-          ? `Opción ${index + 1}: ${item.anticipoPorcentaje}% anticipo y ${
-              item.cuotas
-            } E-Cheq`
-          : `${item.anticipoPorcentaje}% anticipo y ${item.cuotas} E-Cheq`;
+      const cuotasOption = `Opción ${index + 1}: ${
+        item.anticipoPorcentaje
+      }% anticipo y ${item.cuotas} E-Cheq`;
       const saldoConInteres = item.saldoConInteres || 0;
       const cuotaValorEnPesos = item.cuotaValorEnPesos || 0;
 
       return `        
       <div style="margin-bottom: 5px; ; padding: 10px 0; text-align: left; position: relative;">
      
-        <strong style="text-decoration: underline; margin-bottom: 5px; display: block;">${cuotasOption}:</strong> 
-         <strong>${cotizacionDetalle.formaPago}</strong>
-       ${item.anticipoPorcentaje}% - Anticipo USD: ${
-        item.anticipo
-      } equivalentes a $ ${(
-        item.anticipo * item.cotizacionDolar
-      ).toLocaleString("es-ES", {
-        minimumFractionDigits: 2,
-        maximumFractionDigits: 2,
-      })}
+   
+        <strong style="text-decoration: underline; margin-bottom: 5px; display: block;">${cuotasOption}:</strong>
+           ${
+             item.anticipo > 1
+               ? `
+        <strong>${cotizacionDetalle.formaPago}</strong>
+        ${item.anticipoPorcentaje}% - Anticipo USD: ${
+                   item.anticipo
+                 } equivalentes a $ ${(
+                   item.anticipo * item.cotizacionDolar
+                 ).toLocaleString("es-ES", {
+                   minimumFractionDigits: 2,
+                   maximumFractionDigits: 2,
+                 })}
+      `
+               : ""
+           }
+      
          <br />
         <span style="background-color: #ffeaa7; border-radius: 3px;">
           <strong>Saldo en</strong> ${item.cuotas} E-Cheq de U$D ${Math.trunc(
@@ -46,17 +50,22 @@ export default function PreviewCotizacionEmail({ cotizacionDetalle }) {
         }
       )} cada 30 días fijos
         </span> en pesos. <br />
-      <strong>IVA con otro E-Cheq a 30 días de:</strong> $${(item.anticipo > 0
-        ? (item.cuotaValorEnPesos * item.cuotas +
-            item.anticipo * item.cotizacionDolar) *
-          (item.IVA / 100)
-        : item.cuotaValorEnPesos * item.cuotas * (item.IVA / 100)
-      ).toLocaleString("es-ES", {
-        minimumFractionDigits: 2,
-        maximumFractionDigits: 2,
-      })}
-
-       <br />
+        
+      
+      ${
+        item.cuotas > 1
+          ? `<strong>IVA con otro E-Cheq a 30 días de: $$${(item.anticipo > 0
+              ? (item.cuotaValorEnPesos * item.cuotas +
+                  item.anticipo * item.cotizacionDolar) *
+                (item.IVA / 100)
+              : item.cuotaValorEnPesos * item.cuotas * (item.IVA / 100)
+            ).toLocaleString("es-ES", {
+              minimumFractionDigits: 2,
+              maximumFractionDigits: 2,
+            })}</strong>`
+          : ""
+      }
+    <br />
       </li>`;
     })
     .join("");

@@ -108,7 +108,7 @@ export default function VentasAprobar() {
           </div>
         ))
       ) : (
-        <p>No hay cotizaciones pendientes de aprobación.</p>
+        <p>No hay Ventas pendientes de aprobación.</p>
       )}
     </div>
   );
