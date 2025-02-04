@@ -54,7 +54,7 @@ export default function PreviewCotizacionEmail({ cotizacionDetalle }) {
       
       ${
         item.cuotas > 1
-          ? `<strong>IVA con otro E-Cheq a 30 días de: $$${(item.anticipo > 0
+          ? `<strong>IVA con otro E-Cheq a 30 días de: $${(item.anticipo > 0
               ? (item.cuotaValorEnPesos * item.cuotas +
                   item.anticipo * item.cotizacionDolar) *
                 (item.IVA / 100)
